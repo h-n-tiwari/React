@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>React</title>
+</head>
+<body>
+    <!-- Html -->
+    <!-- <div id="root">
+        <h1>Hello World</h1>
+    </div> -->
+
+    <!-- ------------------------------------------------------------------- -->
+
+    <!-- JavaScript -->
+    <!-- <div id = "root">
+        <script>
+            const heading = document.createElement("h1");
+            heading.innerHTML = "Hello World";
+
+            const root = document.getElementById("root");
+            root.appendChild(heading);
+        </script> -->
+
+    <!-- ------------------------------------------------------------------------ -->
+    
+    <!-- React -->
+
+    <h1> Hello Top of Root </h1>
+    <div id = "root">
+        <h1> James is here! </h1>
+    </div>
+    <h1> Hello Below of Root </h1>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>   <!-- This is the Core of React  -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>      <!-- This is the React Library which is used for DOM Operations -->
+
+    <!-- <script>
+        // const heading = React.createElement("h1", {}, "Hello World form React!");     // createElement is React Core Thing
+
+
+        // const root = ReactDOM.createRoot(document.getElementById("root"));                                // createRoot is React DOM because when we render something inside root  // we have created a root for our React Library 
+        
+
+        // root.render(heading);
+
+    </script> -->
+
+    <script src="app.js"></script>
+
+</body>
+</html>
