@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/h-n-tiwari/React/issues"
   },
-  "homepage": "https://github.com/h-n-tiwari/React#readme"
+  "homepage": "https://github.com/h-n-tiwari/React#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
 }
